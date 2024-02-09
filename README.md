@@ -40,7 +40,76 @@
 <details>
 <summary>SOP 1</summary>
 
-*Add SOP 1 details here.*
+*You can simply copy and paste this:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sop 2 JavaScript</title>
+</head>
+<body>
+    <h1>Information Form</h1>
+
+<form name="f1">
+    Your Name
+<input type="text" name="txt_name">
+<br>
+<br>
+Address
+<textarea name="txt_address" placeholder="Permanent Address"></textarea>
+<br>
+<br>
+Contact
+<input type="tel" name="telephone" maxlength="10">
+<br><br>
+
+Email
+<input type="email" name="txt_email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}">
+<br>
+<br>
+
+<input type="button" name="b1" value="submit" onclick="validate_email()">
+</form>
+</body>
+
+<script type="text/javascript">
+    function validate_email()
+    {
+        var x=f1.txt_email.value;
+        var at_pos=x.indexOf("@");
+        var last_pos=x.lastIndexOf("@");
+        var firstdot_pos=x.indexOf(".");
+        var dot_pos=x.lastIndexOf(".");
+
+        if (at_pos<1||dot_pos<at_pos+2||dot_pos+2>=x.length||firstdot_pos<at_pos||at_pos<last_pos)
+        {
+            alert("Not an Valid email address");
+            f1.txt_email.focus();
+        }
+        else
+        {
+            alert("Valid Email Address");
+            return true;
+        }
+    }
+    
+</script>
+       <br>
+       <br>
+  <footer>
+      <div class="footer__bottom ai-c jc-sb px-6">
+        <div class="footer__bottom__copyright co-l">
+          Copyright© 2022 All Rights Reserved <b>*Vivek Wagadare*</b> <br>
+          This website is made by vivek wagadare under the guidance of the <b>jyotsna mam </b>(IT & Computer Science Teacher ARIHANT COLLEGE,camp)
+        </div>
+       
+    
+    </footer>
+  
+</html>
+```
+*
 </details>
 
 <details>
