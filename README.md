@@ -421,24 +421,287 @@ function convert(temperature) {
 <summary>SOP 1</summary>
 
 *You can simply copy and paste this:
+### save as age.php
+```html
 
-```html*
+
+<?php
+
+if(isset($_POST['submit']))
+
+{
+
+  $age=$_POST['txt_age'];
+
+if($age>=18)
+
+echo "<br> you are eligible to vote  ";
+
+else
+
+echo "<br> sorry you are not eligible to vote ";
+
+}
+
+?>
+
+```
+### save as index.html
+```html
+<html>
+
+<body>
+
+<h1>Person eligible to vote or not ? </h1>
+
+<form  method="post"action="age.php" >
+
+<input type="text" name="age"><br><br>
+
+<input type="submit" name="submit" value="Check Eligiblity">
+
+</form>
+
+</body> <br>
+
+<br>
+
+ <footer>
+
+      <div class="footer__bottom ai-c jc-sb px-6">
+
+        <div class="footer__bottom__copyright co-l">
+
+          Copyright© 2022 All Rights Reserved <b>*Vivek Wagadare*</b> <br>
+
+     	    This website is made by vivek wagadare under the guidance of the <b>jyotsna mam </b>(IT & Computer Science Teacher ARIHANT COLLEGE,camp)
+
+        </div>
+
+       
+
+    
+
+    </footer>
+
+  
+
+
+
+</html>
+```
+*
 </details>
 
 <details>
 <summary>SOP 2</summary>
 
 *You can simply copy and paste this:
+### Save as vowel_cnt.php
+```html
+<?php
 
-```html*
+
+
+if(isset($_POST['submit']))
+
+
+
+{
+
+
+
+$str strtolower($_POST['txt_string']);
+
+
+
+$vowel array('a', 'e', 'i', 'o', 'u');
+
+
+
+$len-strlen($str);
+
+
+
+$num=0;
+
+
+
+for ($i=0;$i<$len;$i++)
+
+
+
+{
+
+
+
+if(in_array($str[$i], $vowel))
+
+
+
+{
+
+
+
+$num++;
+
+
+
+}
+
+
+
+}
+
+
+
+echo "<b>Number of Vowels in entered string is: ".$num;
+
+
+
+}
+```
+### Save as vowelchk.html
+```html
+<!DOCTYPE html>
+
+
+
+<html>
+
+
+
+<head>
+
+
+
+<title>SOP 2 Server Side Scripting PHP</title>
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+<form method="post" action="vowel_cnt.php">
+
+
+
+<h1>Program to count no of vowels</h1>
+
+
+
+Enter The String
+
+
+
+<input type="text" name="txt_string">
+
+
+
+<br>
+
+
+
+<input type="submit" name="submit" value="Count Vowel">
+
+
+
+</form>
+
+
+
+</body><br><br>
+
+  <footer>
+
+      <div class="footer__bottom ai-c jc-sb px-6">
+
+        <div class="footer__bottom__copyright co-l">
+
+          Copyright© 2022 All Rights Reserved <b>*Vivek Wagadare*</b> <br>
+
+     	    This website is made by vivek wagadare under the guidance of the <b>jyotsna mam </b>(IT & Computer Science Teacher ARIHANT COLLEGE,camp)
+
+        </div>
+
+       
+
+    
+
+    </footer>
+
+  
+
+
+
+</html>
+```
+*
 </details>
 
 <details>
 <summary>SOP 3</summary>
 
 *You can simply copy and paste this:
+### Save as 
+```html
+<?php 
 
-```html*
+    //Display elements of an array along with their keys
+
+$age = array("Vivek"=>"18", "Akshyat"=>"17", "Gautam"=>"19");
+
+
+
+foreach($age as $x => $x_value) {
+
+    echo "Key = " . $x . ", Value = " . $x_value;
+
+    echo "<br>";
+
+}
+
+    //Display the size of an array
+
+    echo "<br>Size of Array is : ".count($age)."<br>";
+
+
+
+    //Delete an element from an array from the given index
+
+        $data = array(1,2,3,4,5);
+
+        for ($i=0; $i < count($data); $i++) { 
+
+            echo " ".$data[$i];
+
+        }
+
+        unset($data[1]);
+
+        echo "<br>Elements After Deleting : <br>";
+
+        for ($i=0; $i < count($data); $i++) { 
+
+            echo " ".$data[$i];
+
+        }
+
+ ?>
+
+
+
+Output
+```
+
+```html
+```
+*
 </details>
 <p align="center">
 <img src="https://raw.githubusercontent.com/AryanVBW/SOP/main/textbook/1.jpg" height=""><br>
