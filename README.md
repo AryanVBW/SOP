@@ -201,32 +201,244 @@ Email
 <details>
 <summary>SOP 3</summary>
 
-*Add SOP 3 details here.*
+*You can simply copy and paste this:
+
+```html
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>JavaScript SOP 4 Example</title>
+
+</head>
+
+<body>
+
+<form name="f1">
+
+	Enter the string to check it is palindrome or not! 
+
+	<br>
+
+	<input type="text" name="t1">
+
+	<br>
+
+	<br>
+
+	<input type="button" name="check_palin" value="Check String" onclick="chk_palindrome()">
+
+</form>
+
+<script type="text/javascript">
+
+	function chk_palindrome()
+
+	{
+
+		var str,str_case,i,len;
+
+		str=f1.t1.value;
+
+		str_case=str.toLowerCase();
+
+		len=str_case.length;
+
+		var p=1;
+
+		for(i=0;i<len/2;i++)
+
+		{
+
+			if(str_case.charAt(i)!=str_case.charAt(len-1-i))
+
+			{
+
+				p=0;
+
+				break;
+
+			}
+
+		}
+
+		if(p==1)
+
+		{
+
+			alert("Entered string is Palindrome");
+
+		}
+
+		else
+
+		{
+
+			alert("Entered string is Not a Palindrome")
+
+		}
+
+		
+
+	}
+
+</script>
+
+
+
+</body>
+
+  <footer>
+
+      <div class="footer__bottom ai-c jc-sb px-6">
+
+        <div class="footer__bottom__copyright co-l">
+
+          Copyright© 2022 All Rights Reserved <b>*Vivek Wagadare*</b> <br>
+
+     	    This website is made by vivek wagadare under the guidance of the <b>jyotsna mam </b>(IT & Computer Science Teacher ARIHANT COLLEGE,camp)
+
+        </div>
+
+       
+
+    
+
+    </footer>
+
+  
+
+</html>
+```
+*
 </details>
 
 <details>
 <summary>SOP 4</summary>
 
-*Add SOP 4 details here.*
+*You can simply copy and paste this:
+
+```html
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>SOP 4 Javascript</title>
+
+<body>
+
+
+
+<h2>JavaScript code to convert Celcius to Fahrenhiet </h2>
+
+<br>
+
+<p>Enter the Temperature</p>
+
+
+
+<p><input type="text" id="txt_celsius" onkeyup="convert('C')"> Temperature in degree Celsius</p>
+
+<br>
+
+<p><input type="text" id="txt_fah" onkeyup="convert('F')"> Temperature in degree Fahrenheit</p> 
+
+
+
+<script>
+
+function convert(temperature) {
+
+  var t;
+
+  if (temperature == "C") //Celsius to fahrenit
+
+  {
+
+    t = document.getElementById("txt_celsius").value * 9 / 5 + 32;
+
+    document.getElementById("txt_fah").value = Math.round(t);
+
+  } 
+
+  else           //fahrenirt to celsius
+
+   {
+
+    t = (document.getElementById("txt_fah").value -32) * 5 / 9;
+
+    document.getElementById("txt_celsius").value = Math.round(t);
+
+  }
+
+}
+
+</script>
+
+
+
+//Note:-you can remove math.round function if you need answer in decimal
+
+
+
+
+
+</body>
+
+<br><br>
+
+  <footer>
+
+      <div class="footer__bottom ai-c jc-sb px-6">
+
+        <div class="footer__bottom__copyright co-l">
+
+          Copyright© 2022 All Rights Reserved <b>*Vivek Wagadare*</b> <br>
+
+     	    This website is made by vivek wagadare under the guidance of the <b>jyotsna mam </b>(IT & Computer Science Teacher ARIHANT COLLEGE,camp)
+
+        </div>
+
+       
+
+    
+
+    </footer>
+
+  
+
+</html>
+```
+*
 </details>
 
 ## Server Side Scripting
 <details>
 <summary>SOP 1</summary>
 
-*Add SOP 1 details here.*
+*You can simply copy and paste this:
+
+```html*
 </details>
 
 <details>
 <summary>SOP 2</summary>
 
-*Add SOP 2 details here.*
+*You can simply copy and paste this:
+
+```html*
 </details>
 
 <details>
 <summary>SOP 3</summary>
 
-*Add SOP 3 details here.*
+*You can simply copy and paste this:
+
+```html*
 </details>
 <p align="center">
 <img src="https://raw.githubusercontent.com/AryanVBW/SOP/main/textbook/1.jpg" height=""><br>
