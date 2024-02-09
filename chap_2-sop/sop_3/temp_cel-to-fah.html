@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript SOP 4 Example</title>
+</head>
+<body>
+<form name="f1">
+	Enter the string to check it is palindrome or not! 
+	<br>
+	<input type="text" name="t1">
+	<br>
+	<br>
+	<input type="button" name="check_palin" value="Check String" onclick="chk_palindrome()">
+</form>
+<script type="text/javascript">
+	function chk_palindrome()
+	{
+		var str,str_case,i,len;
+		str=f1.t1.value;
+		str_case=str.toLowerCase();
+		len=str_case.length;
+		var p=1;
+		for(i=0;i<len/2;i++)
+		{
+			if(str_case.charAt(i)!=str_case.charAt(len-1-i))
+			{
+				p=0;
+				break;
+			}
+		}
+		if(p==1)
+		{
+			alert("Entered string is Palindrome");
+		}
+		else
+		{
+			alert("Entered string is Not a Palindrome")
+		}
+		
+	}
+</script>
+
+</body>
+  <footer>
+      <div class="footer__bottom ai-c jc-sb px-6">
+        <div class="footer__bottom__copyright co-l">
+          Copyright© 2022 All Rights Reserved <b>*Vivek Wagadare*</b> <br>
+     	    This website is made by vivek wagadare under the guidance of the <b>jyotsna mam </b>(IT & Computer Science Teacher ARIHANT COLLEGE,camp)
+        </div>
+       
+    
+    </footer>
+  
+</html>
