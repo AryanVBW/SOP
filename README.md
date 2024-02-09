@@ -115,7 +115,87 @@ Email
 <details>
 <summary>SOP 2</summary>
 
-*Add SOP 2 details here.*
+*You can simply copy and paste this:
+
+```html
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Sop 3 JAVasript Count vowels</title>
+
+</head>
+
+<body>
+
+<form name="form1">
+
+	<h1>Enter the String whose vowel isto be counted</h1>
+
+	<input type="text" name="text1"> 
+
+	<input type="button" name="btn_checkvowel" value="Click to count" onclick="count()">
+
+</form>
+
+<script type="text/javascript">
+
+	function count()
+
+	{
+
+		var i,ch,str,counter=0;
+
+		str=form1.text1.value;
+
+		for(i=0;i<str.length;i++)
+
+		{
+
+			ch=str.charAt(i);
+
+			if(ch=='A'||ch=='a'||ch=='e'||ch=='E'||ch=='i'||ch=='I'||ch=='o'||ch=='O'||ch=='u'||ch=='U')
+
+				counter++;
+
+		}
+
+		alert("Number of Vowels in Entered String is:"+counter);
+
+	}
+
+</script>
+
+</body>
+
+<br><br>
+
+  <footer>
+
+      <div class="footer__bottom ai-c jc-sb px-6">
+
+        <div class="footer__bottom__copyright co-l">
+
+          Copyright© 2022 All Rights Reserved <b>*Vivek Wagadare*</b> <br>
+
+     	    This website is made by vivek wagadare under the guidance of the <b>jyotsna mam </b>(IT & Computer Science Teacher ARIHANT COLLEGE,camp)
+
+        </div>
+
+       
+
+    
+
+    </footer>
+
+  
+
+</html>
+
+```
+*
 </details>
 
 <details>
