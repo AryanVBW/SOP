@@ -9,31 +9,31 @@
 <details>
 <summary>SOP 1</summary>
 
-*Add SOP 1 details here.*
+*[Click here to view codes.](https://github.com/AryanVBW/SOP/tree/main/chap_1-sop/sop1)*
 </details>
 
 <details>
 <summary>SOP 2</summary>
 
-*Add SOP 2 details here.*
+*[Click here to view codes.](https://github.com/AryanVBW/SOP/tree/main/chap_1-sop/sop2)*
 </details>
 
 <details>
 <summary>SOP 3</summary>
 
-*Add SOP 3 details here.*
+*[Click here to view codes](https://github.com/AryanVBW/SOP/tree/main/chap_1-sop/sop3)*
 </details>
 
 <details>
 <summary>SOP 4</summary>
 
-*Add SOP 4 details here.*
+*[Click here to view codes](https://github.com/AryanVBW/SOP/tree/main/chap_1-sop/sop4)*
 </details>
 
 <details>
 <summary>SOP 5</summary>
 
-*Add SOP 5 details here.*
+*[Click here to view codes](https://github.com/AryanVBW/SOP/tree/main/chap_1-sop/sop5)*
 </details>
 
 ## JavaScript
